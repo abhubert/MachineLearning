@@ -1,4 +1,7 @@
-#Author: Aleksander Brynjulf Hübert
+"""
+@author: Aleksander Brynjulf Hübert
+May 21, 2019
+"""
 
 import math
 import csv

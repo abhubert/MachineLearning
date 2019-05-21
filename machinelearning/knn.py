@@ -1,12 +1,16 @@
-#Author: Aleksander Brynjulf Hübert
-
+"""
+@author: Aleksander Brynjulf Hübert
+May 21, 2019
+"""
 import csv
 import math
 from util import euclideanDistance
-from util import openFile
 from util import dataSplitter
 
 class KNN:
+    def __init__(self):
+        self.k = 5
+
     def findNeighbors(self, training, point, k):
         """
         calculates the neighbor points
